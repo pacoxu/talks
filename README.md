@@ -12,5 +12,5 @@
 | 2023 | KubeCon China (Shanghai) | Xiongxiong Yuan | Kubernetes SIG Node Intro and Deep Dive | EN | [Session](https://kccncosschn2023.sched.com/event/4a2746baff6af89d668edc2eabbcf906) |
 | 2023 | KubeCon China (Shanghai) | Byron Wang | How Can Pod Start-up Be Accelerated on Nodes in Large Clusters? | EN | [Session](https://sched.co/1PTFR) |
 | 2023 | KubeCon EU (Amsterdam) | Rohit Anand | Kubeadm Deep Dive | EN | [Session](https://kccnceu2023.sched.com/event/1Iki0/kubeadm-deep-dive-rohit-anand-nec-paco-xu-dao-cloud) |
-| 2021 | KubeCon China (Virtual) | Tao Ye | Kubernetes SIG Node: Intro and Deep Dive | ZH | [Session](https://kccncosschn21.sched.com/event/pccE/kubernetes-sig-nodedaeptao-ye-ge-kubernetes-sig-node-intro-and-deep-dive-paco-daocloud) |
+| 2021 | KubeCon China (Virtual) | - | Kubernetes SIG Node: Intro and Deep Dive | ZH | [Session](https://kccncosschn21.sched.com/event/pccE/kubernetes-sig-nodedaeptao-ye-ge-kubernetes-sig-node-intro-and-deep-dive-paco-daocloud) |
 | 2021 | KCD Shanghai | - | Kubeadm & SIG Node Intro and How to Contribute | ZH | [Slides](https://github.com/cncf/presentations/tree/main/chinese/kcd-shanghai) |
