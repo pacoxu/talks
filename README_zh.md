@@ -3,9 +3,9 @@
 | 日期 | 活动 | 联合演讲者 | 演讲主题 | 语言 | 幻灯片 |
 |------|------|-----------|---------|------|--------|
 | 2025 | KCD 杭州 | - | 主题演讲-2 Kubernetes 社区新动向：AI Gateway, Integration 与 Conformance 工作组建立 | 中文 | [幻灯片 / 视频](https://www.bilibili.com/video/BV1LkUYBCEZ1) |
-| 2025 | Kubernetes 新贡献者培训 | ZhenYu Jiang; Mengjiao Liu | Kubernetes 新贡献者培训 | 英文 | [幻灯片 / 视频](https://www.youtube.com/watch?v=5UABmfrYu9s) |
+| 2025 | KubeCon 中国（香港） | ZhenYu Jiang; Mengjiao Liu | Kubernetes 新贡献者培训 | 英文 | [幻灯片 / 视频](https://www.youtube.com/watch?v=5UABmfrYu9s) |
 | 2025 | KubeCon 欧洲（伦敦） | Saiyam Pathak | 超大集群还是多集群？识别瓶颈所在 | 英文 | [幻灯片 / 视频](https://www.youtube.com/watch?v=6l5zCt5QsdY) |
-| 2024 | KubeCon + CloudNativeCon + OSS + AI_Dev 中国 | Wei Cai | 主题演讲：Kubernetes 社区与中国云原生活动 | 英文 | [幻灯片 / 视频](https://www.youtube.com/watch?v=c9YVuEkJGR0) |
+| 2024 | KubeCon + CloudNativeCon + OSS + AI_Dev 中国（香港） | Wei Cai | 主题演讲：Kubernetes 社区与中国云原生活动 | 英文 | [幻灯片 / 视频](https://www.youtube.com/watch?v=c9YVuEkJGR0) |
 | 2024 | KubeCon 欧洲（巴黎） | Nabarun Pal | Kubernetes 指导委员会：起源、引导、现状与未来 | 英文 | [会议链接](https://sched.co/1YhgX) |
 | 2024 | Kubernetes 贡献者峰会（欧洲） | Kubernetes 指导委员会 | 指导委员会问答 | 英文 | [会议链接](https://youtu.be/1Ia75WgGC0g?si=5EjP7XlzgM1-q-8O) |
 | 2024 | KCD 上海 | Nikhita Raghunath; Madhav Jivrajani | 云原生入门与开源教育专题：Kubernetes 贡献者之旅 | 英文 | [幻灯片 / 视频](https://www.bilibili.com/video/BV1nD421T786/?spm_id_from=333.999.0.0) |
