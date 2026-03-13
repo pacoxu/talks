@@ -1,0 +1,50 @@
+{
+  "downloaded_at": "2026-03-13",
+  "directory": "downloads/sched-paco",
+  "downloads": [
+    {
+      "source_page": "https://kccnceu2025.sched.com/event/1tx9S/a-huge-cluster-or-multi-clusters-identifying-the-bottleneck-paco-xu-daocloud-saiyam-pathak-loft-labs",
+      "asset_url": "https://static.sched.com/hosted_files/kccnceu2025/0c/A%20Huge%20Cluster%20or%20Multi-Clusters_%20Identifying%20the%20Bottleneck.rc.2.pdf",
+      "file": "downloads/sched-paco/A Huge Cluster or Multi-Clusters_ Identifying the Bottleneck.rc.2.pdf"
+    },
+    {
+      "source_page": "https://kccnceu2023.sched.com/event/1Iki0/kubeadm-deep-dive-rohit-anand-nec-paco-xu-dao-cloud",
+      "asset_url": "https://static.sched.com/hosted_files/kccnceu2023/cd/Kubeadm%20Deep%20Dive%202023%20Kubecon%20EU.pdf",
+      "file": "downloads/sched-paco/Kubeadm Deep Dive 2023 Kubecon EU.pdf"
+    },
+    {
+      "source_page": "https://kccncna2025.sched.com/event/27NnE",
+      "asset_url": "https://static.sched.com/hosted_files/kccncna2025/da/KubeCon%20NA%202025%20-%20TAG%20Workloads%20Foundation%20maintainer%20session.pptx.pdf",
+      "file": "downloads/sched-paco/KubeCon NA 2025 - TAG Workloads Foundation maintainer session.pptx.pdf"
+    },
+    {
+      "source_page": "https://kccncind2025.sched.com/event/23Eux/kubernetes-steering-committee-navigating-the-tides-of-the-kubernetes-ocean-maciej-szulik-independent-paco-xu-daocloud-nikhita-raghunath-nabarun-pal-broadcom",
+      "asset_url": "https://static.sched.com/hosted_files/kccncind2025/fa/KubeCon%20India%202025%20-%20Steering%20Committee.pdf",
+      "file": "downloads/sched-paco/KubeCon India 2025 - Steering Committee.pdf"
+    },
+    {
+      "source_page": "https://kccncjpn2025.sched.com/event/1x6zP/kubernetes-sig-node-intro-and-deep-dive-narang-dixita-sohanlal-google-paco-xu-daocloud-hironori-shiina-independent",
+      "asset_url": "https://static.sched.com/hosted_files/kccncjpn2025/45/%5BKCJP25%5DKubernetes%20SIG%20Node%20Intro%20and%20Deep%20Dive.pptx.pdf",
+      "file": "downloads/sched-paco/[KCJP25]Kubernetes SIG Node Intro and Deep Dive.pptx.pdf"
+    },
+    {
+      "source_page": "https://kccncossaidevchn2024.sched.com/event/1eZpp/keynote-kubernetes-community-and-cloud-native-activities-in-china-mo-3hxi-daepwezha-kubernetes-tuo-re-chang-paco-xu-opensource-team-leader-daocloud-wei-cai-software-engineer-daocloud",
+      "asset_url": "https://static.sched.com/hosted_files/kccncossaidevchn2024/01/%5Ben%5DKeynote_%20Kubernetes%20Community%20and%20Cloud%20Native%20Activities%20in%20China.pptx.pdf",
+      "file": "downloads/sched-paco/[en]Keynote_ Kubernetes Community and Cloud Native Activities in China.pptx.pdf"
+    },
+    {
+      "source_page": "https://kccncossaidevchn2024.sched.com/event/1eZpp/keynote-kubernetes-community-and-cloud-native-activities-in-china-mo-3hxi-daepwezha-kubernetes-tuo-re-chang-paco-xu-opensource-team-leader-daocloud-wei-cai-software-engineer-daocloud",
+      "asset_url": "https://static.sched.com/hosted_files/kccncossaidevchn2024/d7/%5BZH%5DKeynote_%20Kubernetes%20Community%20and%20Cloud%20Native%20Activities%20in%20China.pptx.pdf",
+      "file": "downloads/sched-paco/[ZH]Keynote_ Kubernetes Community and Cloud Native Activities in China.pptx.pdf"
+    },
+    {
+      "source_page": "https://kccncosschn21.sched.com/event/pccE/kubernetes-sig-nodedaeptao-ye-ge-kubernetes-sig-node-intro-and-deep-dive-paco-daocloud",
+      "asset_url": "https://static.sched.com/hosted_files/kccncosschn21/de/SIG-Node-KubeCon-China-2021-v2.3.pdf",
+      "file": "downloads/sched-paco/SIG-Node-KubeCon-China-2021-v2.3.pdf"
+    }
+  ],
+  "not_found_on_checked_pages": [
+    "https://kccncchn2025.sched.com/event/1x5hB/kubernetes-new-contributor-orientation-paco-xu-daocloud-zhenyu-jiang-mengjiao-liu-independent",
+    "https://kccncchn2025.sched.com/event/227Dp/open-source-program-office-ospo-birds-of-a-feather"
+  ]
+}
