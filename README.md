@@ -1,5 +1,7 @@
 ## Talks
 
+[中文版本](README_zh.md)
+
 | Date | Event | Co-speaker(s) | Session title | Language | Slides |
 |------|-------|---------------|---------------|----------|--------|
 | 2025 | KCD Hangzhou | - | Keynotes-2 Kubernetes 社区新动向：AI Gateway, Integration 与 Conformance 工作组建立 | ZH | [Slides / Video](https://www.bilibili.com/video/BV1LkUYBCEZ1) |
