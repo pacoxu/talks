@@ -1,4 +1,5 @@
 # talks
+
 my talks/sessions in KubeCon, KCD and other activities.
 
 Includes activities organization, speeches and Program Committees work.
@@ -10,7 +11,7 @@ Includes activities organization, speeches and Program Committees work.
     - 👥📋 CNCF [TAG Workloads Chair](https://github.com/cncf/toc/issues/1659)
     - 🎡 开源之夏 [基于 KEDA 实现 llmaz Serverless 弹性扩展](https://summer-ospp.ac.cn/)
     - 👥📋 [Kubernetes New Contributor Orientation](https://www.youtube.com/watch?v=5UABmfrYu9s) - Paco Xu, DaoCloud; ZhenYu Jiang & Mengjiao Liu, Independent
-    - 👥📋 KubeCon EU(🏴󠁧󠁢󠁥󠁮󠁧󠁿London) as Program Committee Track Chair
+    - 👥📋 KubeCon EU(🏴London) as Program Committee Track Chair
       - [A Huge Cluster or Multi-Clusters? Identifying the Bottleneck](https://www.youtube.com/watch?v=6l5zCt5QsdY) - Paco Xu, DaoCloud & Saiyam Pathak, Loft Labs
     - 👥📋 KubeCon China as Program Committee Member
       - June 10th: [Kubernetes New Contributor Orientation](https://www.youtube.com/watch?v=5UABmfrYu9s&list=PLj6h78yzYM2P1xtALqTcCmRAa6142uERl&index=59&t=1294s) - Paco Xu, DaoCloud; ZhenYu Jiang, Mashang Consumer Finance; Mengjiao Liu, Independent
@@ -44,3 +45,27 @@ Includes activities organization, speeches and Program Committees work.
     - 🏅 KCSNA, Kubernetes [Contributor Award](https://www.kubernetes.dev/community/awards/2021/) 2021: SIG Cluster Lifecycle and SIG Cli.
     - 📺 KCD Shanghai🇨🇳: [Kubeadm & SIG Node Intro and How to Contribute](https://github.com/cncf/presentations/tree/main/chinese/kcd-shanghai)
 - New/Old interests: DRA & eBPF & CoreDNS
+
+Talk/session material plus a small utility for downloading slide decks from session pages.
+
+## Fetch slides
+
+`fetch_slides.py` accepts one or more URLs and downloads presentation files it can discover from them.
+
+- Built-in support for `sched.com`-style pages: if you pass a speaker or schedule page, it follows linked session pages under `/event/...`.
+- By default it downloads only the latest candidate per source page.
+- "Latest" is chosen from HTTP `Last-Modified` when available, then from dates found in filenames, then from slide-oriented filename heuristics.
+- Use `--all` to download every candidate instead.
+
+### Examples
+
+```bash
+python3 fetch_slides.py https://myevent.sched.com/speaker/some_speaker
+python3 fetch_slides.py https://myevent.sched.com/event/abcd/my-talk -o slides
+python3 fetch_slides.py https://myevent.sched.com/speaker/some_speaker --all
+```
+
+### Output
+
+- Files are downloaded into `downloads/` by default.
+- A JSON manifest is written to `downloads/manifest.json` unless overridden with `--manifest`.
