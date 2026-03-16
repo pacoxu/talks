@@ -37,6 +37,9 @@ const COLORS = {
 const FONT_HEAD = "Avenir Next";
 const FONT_BODY = "PingFang SC";
 const FONT_MONO = "Menlo";
+const EVENT_DATE = "2026-03-21";
+const EVENT_URL =
+  "https://community.cncf.io/events/details/cncf-kcd-beijing-presents-kcd-beijing-vllm-2026/";
 
 function text(slide, value, opts) {
   slide.addText(value, {
@@ -623,6 +626,33 @@ async function build() {
     fontSize: 9.5,
     color: "E8DDD2",
   });
+  slide.addText(
+    [
+      {
+        text: `本周六（${EVENT_DATE}）KCD Beijing 活动链接：`,
+        options: { color: "E8DDD2", bold: true },
+      },
+      {
+        text: EVENT_URL,
+        options: {
+          color: COLORS.gold,
+          underline: true,
+          hyperlink: { url: EVENT_URL },
+        },
+      },
+    ],
+    {
+      x: 0.9,
+      y: 6.15,
+      w: 11.6,
+      h: 0.22,
+      fontFace: FONT_BODY,
+      fontSize: 8.8,
+      margin: 0,
+      valign: "mid",
+      breakLine: false,
+    }
+  );
   finalize(slide, pptx);
 
   slide = pptx.addSlide();
@@ -1334,6 +1364,33 @@ async function build() {
     color: COLORS.muted,
     align: "right",
   });
+  slide.addText(
+    [
+      {
+        text: `KCD Beijing（${EVENT_DATE}, Sat）活动页：`,
+        options: { color: COLORS.ink, bold: true },
+      },
+      {
+        text: EVENT_URL,
+        options: {
+          color: COLORS.red,
+          underline: true,
+          hyperlink: { url: EVENT_URL },
+        },
+      },
+    ],
+    {
+      x: 0.98,
+      y: 6.2,
+      w: 11.4,
+      h: 0.22,
+      fontFace: FONT_BODY,
+      fontSize: 9.1,
+      margin: 0,
+      valign: "mid",
+      breakLine: false,
+    }
+  );
   finalize(slide, pptx);
 
   await pptx.writeFile({ fileName: OUT_FILE });
