@@ -2,7 +2,7 @@
 
 | 日期 | 活动 | 联合演讲者 | 演讲主题 | 语言 | 幻灯片 |
 |------|------|-----------|---------|------|--------|
-| 2026 | KCD 北京 | Cyclinder (DaoCloud) 郭奇峰 | 超大集群还是多集群？识别瓶颈所在 | 中文 | [幻灯片](https://github.com/pacoxu/talks/blob/main/tasks/kcd-beijing-2026-huge-cluster/dist/Huge-Cluster-or-Multi-Clusters-KCD-Beijing-2026.pptx) |
+| 2026 | KCD 北京 | Cyclinder (DaoCloud) 郭奇峰 | 超大集群还是多集群？识别瓶颈所在 | 中文 | [幻灯片](https://github.com/pacoxu/talks/blob/main/tasks/kcd-beijing-2026-huge-cluster/dist/Huge-Cluster-or-Multi-Clusters-KCD-Beijing-2026-final.pdf) |
 | 2025 | KCD 杭州 | - | 主题演讲-2 Kubernetes 社区新动向：AI Gateway, Integration 与 Conformance 工作组建立 | 中文 | [幻灯片 / 视频](https://www.bilibili.com/video/BV1LkUYBCEZ1) |
 | 2025 | KubeCon 中国（香港） | ZhenYu Jiang; Mengjiao Liu | Kubernetes 新贡献者培训 | 英文 | [幻灯片 / 视频](https://www.youtube.com/watch?v=5UABmfrYu9s) |
 | 2025 | KubeCon 欧洲（伦敦） | Saiyam Pathak | 超大集群还是多集群？识别瓶颈所在 | 英文 | [幻灯片 / 视频](https://www.youtube.com/watch?v=6l5zCt5QsdY) |
