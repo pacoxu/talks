@@ -3,10 +3,13 @@ my talks/sessions in KubeCon, KCD and other activities.
 
 ## KCD Links
 
-- KCD presentation 仓库（中文区）：https://github.com/cncf/presentations/tree/main/chinese
-- KCD Beijing slides 目录：https://github.com/cncf/presentations/tree/main/chinese/kcd-beijing
+- KCD 资料总入口（中文）：https://github.com/cncf/presentations/tree/main/chinese
+- KCD Beijing（与 vLLM 北京合办）Slides：https://github.com/cncf/presentations/tree/main/chinese/kcd-beijing
+- KCD Chengdu Slides：https://github.com/cncf/presentations/tree/main/chinese/kcd-chengdu
+- KCD Dalian Slides：https://github.com/cncf/presentations/tree/main/chinese/kcd-dalian
+- KCD Shanghai Slides：https://github.com/cncf/presentations/tree/main/chinese/kcd-shanghai
+- KCD Beijing（与 vLLM 北京合办）Sessionize：https://sessionize.com/app/organizer/event/evaluation/rate/22079/8786
 - KCD 视频（B 站）：https://space.bilibili.com/1274679632
-- vLLM 北京 Sessionize（organizer 入口）：https://sessionize.com/app/organizer/event/evaluation/rate/22079/8786
 - 当前本仓库最终稿：`tasks/kcd-beijing-2026-huge-cluster/dist/Huge-Cluster-or-Multi-Clusters-KCD-Beijing-2026-final.pdf`
 
 ## slides-crawl 用法
