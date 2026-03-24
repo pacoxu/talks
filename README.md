@@ -17,3 +17,64 @@
 | 2023 | KubeCon EU (Amsterdam) | Rohit Anand | Kubeadm Deep Dive | EN | [Session](https://kccnceu2023.sched.com/event/1Iki0/kubeadm-deep-dive-rohit-anand-nec-paco-xu-dao-cloud) |
 | 2021 | KubeCon China (Virtual) | - | Kubernetes SIG Node: Intro and Deep Dive | ZH | [Session](https://kccncosschn21.sched.com/event/pccE/kubernetes-sig-nodedaeptao-ye-ge-kubernetes-sig-node-intro-and-deep-dive-paco-daocloud) |
 | 2021 | KCD Shanghai | - | Kubeadm & SIG Node Intro and How to Contribute | ZH | [Slides](https://github.com/cncf/presentations/tree/main/chinese/kcd-shanghai) |
+
+my talks/sessions in KubeCon, KCD and other activities.
+
+## KCD Links
+
+- KCD 资料总入口（中文）：https://github.com/cncf/presentations/tree/main/chinese
+- KCD Beijing（与 vLLM 北京合办）Slides：https://github.com/cncf/presentations/tree/main/chinese/kcd-beijing
+- KCD Chengdu Slides：https://github.com/cncf/presentations/tree/main/chinese/kcd-chengdu
+- KCD Dalian Slides：https://github.com/cncf/presentations/tree/main/chinese/kcd-dalian
+- KCD Shanghai Slides：https://github.com/cncf/presentations/tree/main/chinese/kcd-shanghai
+- KCD Beijing（与 vLLM 北京合办）Sessionize：https://sessionize.com/app/organizer/event/evaluation/rate/22079/8786
+- KCD 视频（B 站）：https://space.bilibili.com/1274679632
+- 当前本仓库最终稿：`tasks/kcd-beijing-2026-huge-cluster/dist/Huge-Cluster-or-Multi-Clusters-KCD-Beijing-2026-final.pdf`
+
+## slides-crawl 用法
+
+项目地址：https://github.com/pacoxu/slides-crawl
+
+核心逻辑：
+- 针对 `https://<event>.sched.com/list/descriptions/` 页面抓取 `.pdf/.pptx` 链接。
+- 默认输出目录是 `downloaded_slides/`。
+- 可通过 `SCHED_LINK` 指定具体活动地址。
+
+本地运行：
+
+```bash
+python3 -m pip install requests BeautifulSoup4
+python3 validate_url.py https://kccncna2025.sched.com/list/descriptions/
+export SCHED_LINK=https://kccncna2025.sched.com/list/descriptions/
+python3 download_slides.py
+```
+
+Docker 运行：
+
+```bash
+docker run -e SCHED_LINK=https://kccnceu2025.sched.com/list/descriptions/ ghcr.io/pacoxu/slides-crawl:latest
+docker run -v $(pwd)/downloads:/app/downloaded_slides -e SCHED_LINK=https://kccncna2025.sched.com/list/descriptions/ ghcr.io/pacoxu/slides-crawl:latest
+```
+
+## KubeCon 在 sched.com 的常规主题
+
+实操上最常用的是：
+- 活动总页：`/list/descriptions/`
+- 按主题筛选：`/list/descriptions/type/<Topic>`
+
+根据 `kccnceu2025` 与 `kccncna2025` 两个 sched 页面抽样，常见 topic/track 包括：
+- Maintainer Track
+- Project Opportunities（含 Project Lightning Talk 等子类）
+- Solutions Showcase（含 Demo Theater / In-Booth Demo）
+- Platform Engineering
+- AI + ML
+- Security
+- Observability
+- Operations + Performance
+- Application Development
+- Data Processing + Storage
+- Connectivity
+- Cloud Native Novice / Cloud Native Experience
+- Lightning Talks / Tutorials / Poster Sessions / Keynote Sessions
+- CNCF-hosted Co-located Events / Sponsor-hosted Co-located Event
+=======
