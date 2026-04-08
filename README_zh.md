@@ -4,7 +4,7 @@
 |------|------|-----------|---------|------|--------|
 | 2026 | KCD 北京 | Cyclinder (DaoCloud) 郭奇峰 | 超大集群还是多集群？识别瓶颈所在 | 中文 | [幻灯片](https://github.com/pacoxu/talks/blob/main/tasks/kcd-beijing-2026-huge-cluster/dist/Huge-Cluster-or-Multi-Clusters-KCD-Beijing-2026-final.pdf) / [视频](https://www.bilibili.com/video/BV1QZDLBxEWS) |
 | 2025 | KCD 杭州 | - | 主题演讲-2 Kubernetes 社区新动向：AI Gateway, Integration 与 Conformance 工作组建立 | 中文 | [幻灯片 / 视频](https://www.bilibili.com/video/BV1LkUYBCEZ1) |
-| 2025 | KubeCon 中国（香港） | ZhenYu Jiang; Mengjiao Liu | Kubernetes 新贡献者培训 | 英文 | [幻灯片 / 视频](https://www.youtube.com/watch?v=5UABmfrYu9s) |
+| 2025 | KubeCon 中国（香港） | ZhenYu Jiang; Mengjiao Liu | Kubernetes 新贡献者培训 | 中文 | [幻灯片 / 视频](https://www.youtube.com/watch?v=5UABmfrYu9s) |
 | 2025 | KubeCon 欧洲（伦敦） | Saiyam Pathak | 超大集群还是多集群？识别瓶颈所在 | 英文 | [幻灯片 / 视频](https://www.youtube.com/watch?v=6l5zCt5QsdY) |
 | 2024 | KubeCon + CloudNativeCon + OSS + AI_Dev 中国（香港） | Wei Cai | 主题演讲：Kubernetes 社区与中国云原生活动 | 英文 | [幻灯片 / 视频](https://www.youtube.com/watch?v=c9YVuEkJGR0) |
 | 2024 | KubeCon 欧洲（巴黎） | Nabarun Pal | Kubernetes 指导委员会：起源、引导、现状与未来 | 英文 | [会议链接](https://sched.co/1YhgX) |
