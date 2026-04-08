@@ -6,7 +6,7 @@
 |------|-------|---------------|---------------|----------|--------|
 | 2026 | KCD Beijing | Cyclinder (DaoCloud) | A Huge Cluster or Multi-Clusters? Identifying the Bottleneck | ZH | [Slides](https://github.com/pacoxu/talks/blob/main/tasks/kcd-beijing-2026-huge-cluster/dist/Huge-Cluster-or-Multi-Clusters-KCD-Beijing-2026-final.pdf) / [Video](https://www.bilibili.com/video/BV1QZDLBxEWS) |
 | 2025 | KCD Hangzhou | - | Keynotes-2 Kubernetes 社区新动向：AI Gateway, Integration 与 Conformance 工作组建立 | ZH | [Slides / Video](https://www.bilibili.com/video/BV1LkUYBCEZ1) |
-| 2025 | KubeCon + CloudNativeCon China | ZhenYu Jiang; Mengjiao Liu | Kubernetes New Contributor Orientation | EN | [Slides / Video](https://www.youtube.com/watch?v=5UABmfrYu9s) |
+| 2025 | KubeCon + CloudNativeCon China | ZhenYu Jiang; Mengjiao Liu | Kubernetes New Contributor Orientation | ZH | [Slides / Video](https://www.youtube.com/watch?v=5UABmfrYu9s) |
 | 2025 | KubeCon EU (London) | Saiyam Pathak | A Huge Cluster or Multi-Clusters? Identifying the Bottleneck | EN | [Slides / Video](https://www.youtube.com/watch?v=6l5zCt5QsdY) |
 | 2024 | KubeCon + CloudNativeCon + OSS + AI_Dev China | Wei Cai | Keynote: Kubernetes Community and Cloud Native Activities in China | EN | [Slides / Video](https://www.youtube.com/watch?v=c9YVuEkJGR0) |
 | 2024 | KubeCon EU (Paris) | Nabarun Pal | Kubernetes Steering Committee: Genesis, Bootstrap, Now & Future | EN | [Session](https://sched.co/1YhgX) |
